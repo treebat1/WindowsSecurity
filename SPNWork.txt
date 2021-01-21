@@ -1,0 +1,6 @@
+﻿setspn -Q  MSSQLSvc/CHDC.uboc-ad.corp.uboc.com:DATAMARTDEV
+setspn -Q  MSSQLSvc/CHDC.uboc-ad.corp.uboc.com:51320
+setspn -Q  MSSQLSvc/CAR.uboc-ad.corp.uboc.com:DATAMARTDEV
+setspn -Q  MSSQLSvc/CAR.uboc-ad.corp.uboc.com:51320
+
+

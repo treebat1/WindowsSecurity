@@ -1,0 +1,1 @@
+Get-ADGroup -Identity app_car_FLDR_FX_Bridge -Properties managedBy

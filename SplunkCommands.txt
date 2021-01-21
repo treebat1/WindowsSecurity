@@ -1,0 +1,5 @@
+(index=secevents) (Account_Name=arx95913 OR Account_Name=rx95913) (EventCode=4625 OR EventCode=4740) | table ComputerName, _time, EventCode, name, user, Message
+
+(index=secevents) (Account_Name=arx95913 OR Account_Name=rx95913) | table ComputerName, _time, EventCode, name, user, Message
+
+(index=secevents) (Account_Name=svc) | table ComputerName, _time, EventCode, name, user, Message

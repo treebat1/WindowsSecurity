@@ -1,0 +1,3 @@
+﻿net group CL_Datamart_Admins /domain 
+
+--Doesn't always work.

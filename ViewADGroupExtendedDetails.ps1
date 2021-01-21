@@ -1,0 +1,1 @@
+Get-ADGroup -Identity "wga_CL_Datamart" -properties *

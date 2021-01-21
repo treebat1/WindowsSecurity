@@ -1,0 +1,1 @@
+Get-ADGroupMember -Identity "cl_datamart_developers" | Get-ADObject -Properties Name, DisplayName, Title, Department  | sort-object -property Name, DisplayName, Title, Department  | FT Name, DisplayName, Title, Department  | out-file U:\target\CL_DataMart_Developers.txt

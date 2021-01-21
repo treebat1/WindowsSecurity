@@ -1,0 +1,1 @@
+Get-ADGroupMember -Identity "app_cldrs_developers" | Get-ADObject -Properties DisplayName, Name, Title | sort-object -property DisplayName, Name, Title | FT DisplayName, Name, Title | out-file U:\target\app_cldrs_developers.txt
